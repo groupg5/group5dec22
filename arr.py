@@ -12,4 +12,4 @@ for var in (arr):
 print sum
 avg=sum/cnt
 print avg
-
+exit
