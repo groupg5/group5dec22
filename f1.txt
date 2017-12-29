@@ -1,2 +1,3 @@
 file one text 
 file two text
+file three text
