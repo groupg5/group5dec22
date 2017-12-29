@@ -1,0 +1,347 @@
+    1  adduser ansibledec
+    2  passwd ansibledec
+    3  su - ansibledec
+    4  logout
+    5  yum install epel-release
+    6  yum update
+    7  yum install git python python-devel python-pip openssl ansible
+    8  which ansible
+    9  ansible --version
+   10  vim /etc/ansible/ansible.cfg
+   11  vim  /etc/ansible/ansible.cfg
+   12  vi /etc/amsible/ansible.cfg
+   13  ls
+   14  ansible --version
+   15  vi /etc/ansible/ansible.cfg 
+   16  cd /etc/ansible
+   17  ls
+   18  cd ..
+   19  cd\
+   20  su - root
+   21  exit
+   22  ls
+   23  su - ansibledec
+   24  logout
+   25  visudo
+   26  su - ansibledec
+   27  exit
+   28  yum -y groups install "GNOME Desktop"
+   29  reboot
+   30  visudo
+   31  vi
+   32  visudo
+   33  su - ansibledec
+   34  exit
+   35  startx
+   36  cat /etc/passwd
+   37  su - ansibledec
+   38  logout
+   39  systemctl start httpd
+   40  ansible localhost -s -m service -a "name=httpd state=started"
+   41  ps -ef|grep httpd
+   42  systemctl start httpd
+   43  ansible localhost -s -m service -a "name=httpd state=started"
+   44  su - ansibledec
+   45  logout
+   46  ansible local --list-hosts
+   47  ansible all --list-hosts
+   48  vim /etc/ansible/hosts
+   49  su - ansibledec
+   50  /etc/init.d/sshd start
+   51  cd /etc/init.d/
+   52  sshd start
+   53  ls -la
+   54  cd\
+   55  cd
+   56  su - ansibledec
+   57  vim /etc/ansible/hosts
+   58  ansible all -m ping
+   59  vim /etc/ansible/hosts
+   60  ansible all -m ping
+   61  su -ansibledec
+   62  su - ansibledec
+   63  service sshd stop
+   64  service sshd status
+   65  systemctl sshd stop
+   66  service sshd stop
+   67  service sshd status
+   68  su - ansibledec
+   69  vim /etc/ansible/hosts
+   70  hostname
+   71  vim /etc/ansible/hosts
+   72  vim 
+   73  su -ansibledec
+   74  su - ansibledec
+   75  vim /etc/ansible/hosts
+   76  pwd
+   77  service httpd status
+   78  service sshd start
+   79  service sshd status
+   80  ansible local --list-hosts
+   81  su - ansibledec
+   82  vim /etc/ansible/hosts
+   83  hostname
+   84  vim /etc/ansible/hosts
+   85  su - ansibledec
+   86  ls -la
+   87  ls /
+   88  cd var
+   89  cd /var
+   90  cd /log
+   91  ls
+   92  cd /log
+   93  cd log
+   94  ls
+   95  ls -la
+   96  cat messages
+   97  cd
+   98  tail /var/log/messages
+   99  su - ansibledec
+  100  startx
+  101  cat /etc/passwd
+  102  cd ansibledec
+  103  su i
+  104  su -i
+  105  su - i
+  106  su i
+  107  su -i
+  108  su - ansibledec
+  109  ls -la
+  110  su - ansibledec
+  111  ls -la
+  112  su - ansibledec
+  113  visudo
+  114  chmod 777 ansibledec
+  115  visudo
+  116  su - ansibledec
+  117  which python
+  118  export PATH="$PATH:local/usr/bin"
+  119  ls
+  120  ls -ls
+  121  ls -la
+  122  cat /usr/bin
+  123  ls - la
+  124  ls -la
+  125  search python
+  126  python version
+  127  python --version
+  128  yum update
+  129  python --version
+  130  yum -y install python36u
+  131  ls -la
+  132  cd home
+  133  ls -la
+  134  ls
+  135  vim bc.py
+  136  python bc.py
+  137  vim bc.py
+  138  python bc.py
+  139  vim bc.py
+  140  python bc.py
+  141  which python
+  142  cd bin
+  143  cd /bin
+  144  ls
+  145  cd /python
+  146  cd /user
+  147  cd /users
+  148  find . usr
+  149  cd ..
+  150  ls
+  151  cd usr
+  152  ls
+  153  cd bin
+  154  ls
+  155  cd python
+  156  find .python
+  157  which python
+  158  echo $PATH
+  159  ls
+  160  cd ..
+  161  cd sbin
+  162  ls
+  163  cd ..
+  164  ls
+  165  cd lib
+  166  ls
+  167  cd python2.7/
+  168  ls
+  169  cd site-packages/
+  170  ls
+  171  exit
+  172  vim f1.py
+  173  python f1.py
+  174  cat f1.py
+  175  vim f1.py
+  176  python f1.py
+  177  vim
+  178  vim f1.py
+  179  python f1.py
+  180  vim f1.py
+  181  python f1.py
+  182  vim f2.py
+  183  python f2.py
+  184  vim f2.py
+  185  python f2.py
+  186  vim f2.py
+  187  python f2.py
+  188  vim f2.py
+  189  python f2.py
+  190  vim f2.py
+  191  python f2.py
+  192  vim f2.py
+  193  vim f3.py
+  194  python f3.py
+  195  vim f3.py
+  196  python f3.py
+  197  vim f3.py
+  198  vim s1.py
+  199  python s1.py
+  200  vim s1.py
+  201  python s1.py
+  202  vim s1.py
+  203  python s1.py
+  204  vim s1.py
+  205  python s1.py
+  206  vim s1.py
+  207  python s1.py
+  208  vim s1.py
+  209  python s1.py
+  210  exit
+  211  ls
+  212  which ansible
+  213  su - anisbledec
+  214  ls -la
+  215  cat /etc/passwd
+  216  su - ansibledec
+  217  startx
+  218  history
+  219  clear
+  220  date
+  221  time
+  222  who
+  223  whoami
+  224  pwd
+  225  man
+  226  man ls
+  227  uname
+  228  uname -a
+  229  time
+  230  date
+  231  ls -ltr
+  232  echo "line 1" > 1p.txt
+  233  cat 1p.txt
+  234  echo "line 2" > 1p.txt
+  235  echo "line 2" >> 1p.txt
+  236  cat 1p.txt
+  237  echo "line 3" >>1p.txt
+  238  cat 1p.txt
+  239  mkdir first
+  240  ls
+  241  rmdir first/
+  242  ls
+  243  git clone https://github.com/groupg5/group5dec22.git wsg5
+  244  cd wsg5
+  245  date
+  246  time
+  247  hostname
+  248  who am i
+  249  who
+  250  ifconfig
+  251  cat /etc/hostname
+  252  dnsdomainname
+  253  dns domainname
+  254  dns domain name
+  255  tail
+  256  man
+  257  man whois
+  258  whatis route
+  259  whereis -m whois
+  260  exit
+  261  pwd
+  262  cd -
+  263  cd wsg5
+  264  ls
+  265  ls -a
+  266  ls -la
+  267  ls -lh
+  268  ls -l -h
+  269  mkdir dec22
+  270  mkdir -p
+  271  rmdir dec22
+  272  rmdir -p
+  273  mkdir -p dec22/gp5
+  274  rmdir -p dec22
+  275  rmdir -p dec22/gp5/
+  276* 
+  277  mkdir -p dec22/gp5
+  278  cd dec22/gp5
+  279  cd .
+  280  cd ..
+  281  ls
+  282  ls -l
+  283  ls-ltr
+  284  ls- ltr
+  285  ls -ltr
+  286  man bash
+  287  man ls
+  288  touch dec22
+  289  cat dec22
+  290  echo "hallo dec">dec22
+  291  echo "hallo dec" >dec22
+  292  ls
+  293  echo "hallo dec" > dec22
+  294  touch dec22.txt
+  295  echo "hallo dec" > dec22.txt
+  296  cat dec22.txt 
+  297  touch f1.txt f2.txt
+  298  vim f1.txt 
+  299  vim f2.txt 
+  300  cat f1.txt 
+  301  cat f2.txt 
+  302  ASCII text
+  303  ASCII f1.txt 
+  304  file hw.c
+  305  cp fi.txt /dec22
+  306  cp f1.txt /dec22
+  307  cd dec22
+  308  ls
+  309  cd gp5
+  310  ls
+  311  cd ..
+  312  cp f1.txt f2.txt
+  313  cat f2.txt
+  314  cp f1.txt /dec22/f2.txt
+  315  cp f1.txt /dec22/f2.txt/
+  316  cp -r
+  317  cp -r dec22/ dec23
+  318  ls
+  319  cp f1.txt dec22/gp5
+  320  cd dec22/gp5/
+  321  ls
+  322  head /etc/passwd
+  323  tail /etc/passwd
+  324  tail /etc/passwd -3
+  325  tail -3 /etc/passwd
+  326  vim count.txt
+  327  head -5 count.txt 
+  328  tail -5 count.txt 
+  329  ls /usr/bin
+  330  ls /usr/bin | wc -l
+  331  ls count.txt | wc -l
+  332  cat count.txt 
+  333  alias dog=tac
+  334  dog count.txt 
+  335  cat count.txt 
+  336  which rm
+  337  echo $user
+  338  history
+  339  git push https://github.com/groupg5/group5dec22.git
+  340  cd ..
+  341  git push https://github.com/groupg5/group5dec22.git
+  342  cd wsg5
+  343  git push https://github.com/groupg5/group5dec22.git
+  344  history
+  345  git status
+  346  history > dec22
+  347  history > dec24
