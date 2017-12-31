@@ -10,3 +10,4 @@ print stack
 stack.extend([5,6,7])
 
 print stack
+hello
