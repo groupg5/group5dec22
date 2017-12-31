@@ -13,3 +13,4 @@ print sum
 avg=sum/cnt
 print avg
 exit
+gggg
