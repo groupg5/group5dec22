@@ -8,4 +8,5 @@ for var in (arr):
   cnt=cnt+1
   continue
 print "the no of of a's is", cnt
+print "the no of b"
 
